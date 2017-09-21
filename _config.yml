@@ -1,0 +1,14 @@
+title: Anton Outkine
+description: Anton Outkine
+url: antonoutkine.com
+author: Anton Outkine
+
+markdown: kramdown
+
+jekyll-plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
