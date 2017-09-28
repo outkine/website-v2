@@ -79,24 +79,34 @@ projects:
         Wrote it for a competition with a friend - essentially it works by simulating 4 moves into the game and choosing the one that gains the most material OR results in a better position.
 ---
 
-<div class="row">
+<div class="row navigation">
   <a href="/">home</a>
   <a href="/about">about</a>
   <a href="/blog">blog</a>
   <a href="media/resume.pdf" download>resume</a>
 </div>
-<h1 class="title">portfolio</h1>
-{% for project_type in page.projects %}
-  <h2>{{ project_type[0] }}</h2>
-  {% for project in project_type[1] %}
-  <h3><a href={{ project[1][0] }}>{{ project[0] }}</a></h3>
-  <div class="portfolio-info">
-    <div class="row-l portfolio-tags">
-      {% for tag in project[1][1] %}
-        <p class="portfolio-tag">{{ tag }}</p>
-      {% endfor %}
+
+<div class="content">
+  <h1>portfolio</h1>
+  {% for project_type in page.projects %}
+    <h2>{{ project_type[0] }}</h2>
+    {% for project in project_type[1] %}
+    <h4><a href={{ project[1][0] }}>{{ project[0] }}</a></h4>
+    <div class="portfolio-entry">
+      <div class="row portfolio-tags">
+        {% for tag in project[1][1] %}
+          <p>{{ tag }}</p>
+        {% endfor %}
+      </div>
+      <p>{{ project[1][2] }}</p>
     </div>
-    <p>{{ project[1][2] }}</p>
-  </div>
+    {% endfor %}
   {% endfor %}
-{% endfor %}
+</div>
+
+<div class="row navigation">
+  <a href="/">home</a>
+  <a href="/about">about</a>
+  <a href="/blog">blog</a>
+  <a href="media/resume.pdf" download>resume</a>
+</div>

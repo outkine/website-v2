@@ -1,15 +1,38 @@
 .panel
   border: 3px solid #312f3a
   background-color: #ffffc3
-  padding: 10px
   width: 600px
   position: relative
   top: 30vh
-  text-align: center
+
+.content
+  padding: 10px
 
 canvas
   position: absolute
   z-index: -1
+  right: 0
 
 html
   background-color: #312f3a
+
+@media screen and (max-width: 600px)
+  .panel
+    width: 100%
+
+.navigation
+  width: 100%
+  border: 3px solid #312f3a
+  border-right: 0
+  border-left: 0
+  margin: 10px 0
+  padding-top: 8px
+  padding-bottom: 3px
+  background-color: #ffffc3
+  transition-duration: .3s
+
+.navigation:hover
+  filter: brightness(.9)
+
+a
+  text-decoration: none
