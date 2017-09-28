@@ -1,14 +1,6 @@
 const canvas = document.querySelector('.background')
 const ctx = canvas.getContext('2d')
 
-const ARC_NUMBER = 10
-const ARC_WIDTH = window.innerWidth / ARC_NUMBER
-const CANVAS_WIDTH = window.innerWidth
-const CANVAS_HEIGHT = window.innerHeight
-canvas.width = CANVAS_WIDTH
-canvas.height = CANVAS_HEIGHT
-const WAVE_Y = window.screen.height / 2
-
 function draw (ctx, angle, offset) {
   ctx.fillRect(0, 0, CANVAS_WIDTH, WAVE_Y - ARC_WIDTH / 2)
   let radius = ARC_WIDTH / Math.cos(Math.PI * angle) / 2
@@ -20,13 +12,24 @@ function draw (ctx, angle, offset) {
   ctx.fill()
 }
 
+const ARC_NUMBER = 10
+let ARC_WIDTH, CANVAS_WIDTH, CANVAS_HEIGHT, WAVE_Y, offset
+function setConstants () {
+  ARC_WIDTH = window.innerWidth / ARC_NUMBER
+  CANVAS_WIDTH = window.innerWidth
+  CANVAS_HEIGHT = window.innerHeight
+  canvas.width = CANVAS_WIDTH
+  canvas.height = CANVAS_HEIGHT
+  WAVE_Y = window.screen.height / 2
+  offset = -ARC_WIDTH
+  ctx.fillStyle = '#ffffc3'
+}
+setConstants()
 let factor = .001
 let angle = .2
-let offset = -ARC_WIDTH
 let speed = .5
-ctx.fillStyle = '#ffffc3'
 function main (timestamp) {
-  if (angle <= .1 + .01 || angle >= .4 - .01) {
+  if (angle <= .1 + .01 || angle >= .5 - .01) {
     factor *= -1
   }
   angle += factor
@@ -41,3 +44,5 @@ function main (timestamp) {
 }
 
 window.requestAnimationFrame(main)
+
+window.addEventListener('resize', setConstants)
