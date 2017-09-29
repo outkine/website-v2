@@ -21,20 +21,22 @@ function setConstants () {
   canvas.width = CANVAS_WIDTH
   canvas.height = CANVAS_HEIGHT
   WAVE_Y = window.screen.height / 2
-  offset = -ARC_WIDTH
+  offset = -ARC_WIDTH * Math.random()
   ctx.fillStyle = '#ffffc3'
 }
 setConstants()
-let factor = .001
-let angle = .2
-let speed = .5
+let factor = .0015 * (Math.random() < .5 ? -1 : 1)
+let angle = Math.random() * .3 + .2
+let speed = .5 * (Math.random() < .5 ? -1 : 1)
 function main (timestamp) {
-  if (angle <= .1 + .01 || angle >= .5 - .01) {
+  if (angle <= .2 + .01 || angle >= .5 - .01) {
     factor *= -1
   }
   angle += factor
-  if (offset >= -.01) {
+  if (offset > 0) {
     offset = -ARC_WIDTH
+  } else if (offset < -ARC_WIDTH) {
+    offset = 0
   }
   offset += speed
 
