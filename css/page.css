@@ -1,0 +1,45 @@
+@import url('stylesheet.css');
+@import url('grid.css');
+
+
+.panel {
+  border: 3px solid #312f3a;
+  background-color: #ffffc3;
+  position: relative;
+}
+
+.content {
+  padding: 10px;
+}
+
+canvas {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+}
+
+html {
+  background-color: #312f3a;
+}
+
+.navigation {
+  width: 100%;
+  border: 3px solid #312f3a;
+  border-right: 0;
+  border-left: 0;
+  margin: 10px 0;
+  padding-top: 8px;
+  padding-bottom: 3px;
+  background-color: #ffffc3;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.navigation:hover {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+
+a {
+  text-decoration: none;
+}

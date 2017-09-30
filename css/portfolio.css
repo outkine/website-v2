@@ -1,0 +1,12 @@
+.portfolio-tags {
+  border: 3px solid #312f3a;
+  padding: 5px;
+}
+
+.portfolio-tags * {
+  margin: 0;
+}
+
+.portfolio-entry {
+  margin-bottom: 50px;
+}
