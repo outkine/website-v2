@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Big John';
-  src: url('big_john.eot');
-  src: url('big_john.eot?#iefix') format('embedded-opentype'),
-    url('big_john.woff') format('woff'),
-    url('big_john.ttf') format('truetype');
+  src: url('/media/big_john.eot');
+  src: url('/media/big_john.eot?#iefix') format('embedded-opentype'),
+    url('/media/big_john.woff') format('woff'),
+    url('/media/big_john.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
