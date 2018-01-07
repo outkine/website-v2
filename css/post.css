@@ -14,3 +14,18 @@ body {
     margin: 0 10px;
   }
 }
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 500px;
+  padding: 40px;
+}
+
+h2, h3 {
+  padding-top: 30px;
+}
+
+h4 {
+  padding-top: 10px;
+}
