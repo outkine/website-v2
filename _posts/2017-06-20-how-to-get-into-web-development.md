@@ -93,12 +93,12 @@ I'm a big believer in teaching yourself things, and this is a guide that can hel
 
 ## Appendix 1: some links I use
 
-[An online HTML/CSS/JS editor](codepen.io)
-[An online HTML/CSS/JS editor that lets you save your website to a domain](playcode.io)
-[An online React editor](codesandbox.io/)
-[Google Fonts](fonts.google.com)
-[Colors](material.io/color)
-[Cool cheatsheets](devhints.io/)
+* [An online HTML/CSS/JS editor](codepen.io)
+* [An online HTML/CSS/JS editor that lets you save your website to a domain](playcode.io)
+* [An online React editor](codesandbox.io/)
+* [Google Fonts](fonts.google.com)
+* [Colors](material.io/color)
+* [Cool cheatsheets](devhints.io/)
 
 ## Appendix 2: my favorite fonts
 
