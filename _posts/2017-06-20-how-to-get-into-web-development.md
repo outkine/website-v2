@@ -49,7 +49,7 @@ I'm a big believer in teaching yourself things, and this is a guide that can hel
 
 2. Make sure that you know what the DOM is and how to manipulate it. Don't learn [jQuery](https://jquery.com/), which claims to simplify this. It used to be popular but the truth is that it doesn't add anything useful and vanilla JS works just as well.
 
-3. Many say that Javascript is a [terrible language](http://walkercoderanger.com/blog/2014/02/Javascript-minefield/) and so solutions like [Coffeescript](http://coffeescript.org/v2/) have come around, but the truth is that ES6 actually fixed a lot of the broken parts of the language. Make sure that you understand [the difference](http://es6-features.org/) between 'old Javascript' and ES6**. [Babel](babeljs.io/) is the tool that lets you transpile the new, sexy Javascript into old Javascript so that it works on old browsers.
+3. Many say that Javascript is a [terrible language](http://walkercoderanger.com/blog/2014/02/Javascript-minefield/) and so solutions like [Coffeescript](http://coffeescript.org/v2/) have come around, but the truth is that ES6 actually fixed a lot of the broken parts of the language. Make sure that you understand [the difference](http://es6-features.org/) between 'old Javascript' and ES6*. [Babel](babeljs.io/) is the tool that lets you transpile the new, sexy Javascript into old Javascript so that it works on old browsers.
 
 4. This is the hard part: in order to make truly complex websites with many moving parts, you're going to have to learn a javascript framework. These frameworks simplify the role of altering the DOM and making your websites truly dynamic. The most common ones are [React](https://facebook.github.io/react/), [VueJS](https://vuejs.org/), and [Angular](https://angular.io/). From my experience React has been the clear winner due to many factors - in fact, I love it so much that I even wrote a [whole article](/blog/why-react) about why you should use it and how to learn it. React is changing web development forever, so I really recommend learning it.
 
@@ -89,7 +89,7 @@ I'm a big believer in teaching yourself things, and this is a guide that can hel
 
 *If at this point you're confused by the difference between a library and a framework, I don't blame you. [Here's](http://www.programcreek.com/2011/09/what-is-the-difference-between-a-java-library-and-a-framework/) an article that clarifies this.
 
-**ES6's relationship to Node is somewhat strange. Essentially, Node is currently being updated to look more like ES6, but in reality it is still most similar to 'old javascript'. As such you still have to use tools like Babel to transpile your ES6 code.
+*ES6's relationship to Node is somewhat strange. Essentially, Node is currently being updated to look more like ES6, but in reality it is still most similar to 'old javascript'. As such you still have to use tools like Babel to transpile your ES6 code.
 
 ## Appendix 1: some links I use
 
@@ -110,7 +110,7 @@ Serif:
 - Vollkorn
 
 Sans-serif:
-- **Montserrat (my favorite font - great for titles)**
+- *Montserrat (my favorite font - great for titles)*
 - Comfortaa
 - Lato
 - [Big John](https://www.behance.net/gallery/19484739/Big-John-Slim-Joe-FREE-Font)
