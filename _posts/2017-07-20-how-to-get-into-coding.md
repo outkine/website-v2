@@ -13,3 +13,5 @@ There are usually two paths that I recommend for anyone starting out - web desig
 If you are more of a creative person, [learn web design](/posts/how-to-get-into-web-development/). It starts out with HTML/CSS which focuses more on visual design than logic. If you are more of	 a mathematical/logic person, [learn game development](/posts/how-to-get-into-game-development). Regardless of what you choose, remember that the key is not to give up and to actually give it a go.
 
 Also - no matter what coding you're doing, *DO NOT FORGET TO USE GOOGLE*! It is neither lazy nor bad practice to consult the web on absolutely anything and everything. Even the best coders forget/need help with certain things *all the time*, so do yourself a favor and Google any question that pops into your head. Someone has had it before you.
+
+Finally, I've found that examples are one of the best ways to really understand a concept. So the ideal learning procedure is: 1) completing a brief tutorial, 2) looking over a couple of examples, and 3) practicing. Again, do not forget to consult Google/the official documentation!
