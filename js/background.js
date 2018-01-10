@@ -22,7 +22,7 @@ function setConstants () {
   canvas.height = CANVAS_HEIGHT
   WAVE_Y = window.screen.height / 2
   offset = -ARC_WIDTH * Math.random()
-  ctx.fillStyle = '#ffffc3'
+  ctx.fillStyle = '#c58787'
 }
 setConstants()
 let factor = .0015 * (Math.random() < .5 ? -1 : 1)
