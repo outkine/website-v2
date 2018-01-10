@@ -15,3 +15,26 @@ If you are more of a creative person, [learn web design](/posts/how-to-get-into-
 Also - no matter what coding you're doing, *DO NOT FORGET TO USE GOOGLE*! It is neither lazy nor bad practice to consult the web on absolutely anything and everything. Even the best coders forget/need help with certain things *all the time*, so do yourself a favor and Google any question that pops into your head. Someone has had it before you.
 
 Finally, I've found that examples are one of the best ways to really understand a concept. So the ideal learning procedure is: 1) completing a brief tutorial, 2) looking over a couple of examples, and 3) practicing. Again, do not forget to consult Google/the official documentation!
+
+## Tools of the Trade
+
+Before you jump into learning you're going to have to install an Integrated Development Environment (IDE). This basically stands for a text editor that has been optimized for writing code. IDE's vary in complexity: the more feature-rich ones are usually optimized for a specific language and come with built in debuggers, code fixers, library linkers, and so on. Unfortunately, a common trend is that they also come with fairly poor community features, so I generally avoid them. However if you do decide to use one [Jetbrains](https://www.jetbrains.com/) makes the best ones and they offer a 100% student discount!
+
+Simple IDE's are essentially just nicer versions of text editors with a community plugin system. The three most common ones are Sublime Text, Atom, and VSCode - and [VSCode](https://code.visualstudio.com/) is clearly the winner with its speed, awesome interface, and huge community. After installing it, you should add the following plugins:
+ * Atom One Dark Syntax Theme
+ * Atom One Dark Theme
+ * Bracket Pair Colorizer
+ * Code Runner
+ * Material Icon Theme
+ * Path Intellisense
+ * Project Manager
+ * Vim - this one is particularly important, as it lets you use the VIM keybindings (you can read more about them in the web development article)
+If you are going into web development, you should also install these extensions:
+ * ESLint
+ * Node Debug 2
+ * npm Intellisense
+There are also many language-specific packages, such as the Python package, so make sure to look those up.
+
+## The Windows Problem
+
+Unfortunately, developing on Windows is often a very difficult experience, so if you are currently using it I'd recommend dual-booting your computer with Linux. Dual-booting essentially means that when you start up your machine you choose which OS to boot into, and so you can keep all of your Windows files. And no, despite the stereotype Linux isn't a scary geek-only thing - and I've never encountered an application that wasn't available for it. Out of all of the distributions or 'flavors' of Linux I'd recommend [Linux Mint](https://linuxmint.com/). [Here](https://www.lifewire.com/dual-boot-windows-8-1-linux-mint-2202090) is a tutorial on how to dual-boot it.
