@@ -1,5 +1,3 @@
-*WARNING: this guide assumes that you are not running Windows, as it is generally very painful to use in any development environment, ESPECIALLY IF YOU ARE DEVELOPING WITH C++. If you are currently using Windows, I'd recommend dual-booting it with [Linux Mint](https://linuxmint.com/). [Here](https://www.lifewire.com/dual-boot-windows-8-1-linux-mint-2202090) is a tutorial on how to do that.*
-
 The number of language options that you have in Game Development is so large that it's worth covering them first, before we dive into the actual learning phase:
 
 * OOP languages
@@ -18,7 +16,7 @@ Scripting languages, on the other hand, are light and easy to use. These are ide
 ## The Python Years
 
 1. Learn Python through an online book like [Python for Kids](https://nostarch.com/pythonforkids) or through an online course like [CodeAcademy](https://www.codecademy.com/learn/learn-python). I've found that the CodeAcademy course covers the basics pretty well* but if you need extra help I'd recommend getting a book.
-2. Practice writing a Python application through something like a choose-your-own-adventure game or by using the problems available on [ProjectEuler](projecteuler.net)(more sites like this listed in Appendix 1). I've found that one of the most difficult parts of the programming journey is going from knowing all of the basics to actually being able to apply them - so make sure that you get enough practice to make this step.
+2. Practice writing a Python application through something like a choose-your-own-adventure game or by using the problems available on [ProjectEuler](https://projecteuler.net/) (more sites like this listed in Appendix 1). I've found that one of the most difficult parts of the programming journey is going from knowing all of the basics to actually being able to apply them - so make sure that you get enough practice to make this step.
 3. If you don’t know how Git/Github works, make an account and learn it through [this book](https://git-scm.com/book/en/v2) or [this interactive tutorial](https://try.github.io). Essentially Git is a way to synchronize your coding projects with the web and it is used everywhere in coding.
 4. Unfortunately, Python doesn't have good graphics built-in and so in order to learn an external library in order to code the visuals of a game. The most popular libraries are:
  * Tkinter: the 'default' Python graphics library, but vastly inferior to other choices
@@ -54,6 +52,29 @@ After using Python to learn the basics of programming, you have a lot of options
 4. C++ and Urho3D
 
 The C++ routes, especially Urho3D, are very difficult and you should probably skip them when you're still getting used to programming. In general, I would also prioritize making 2D games over 3D games, as 2D is usually a lot simpler and faster to produce an actual product. Because of this I would strongly recommend the Lua/Love2D route to anyone - it is so good that it could probably last you your whole development career.
+
+## Appendix 1 - practice sites
+
+This is a collection of sites that let you practice your coding. Note that I always prefer doing projects rather than completing these exercises, but that is your choice.
+ * [Project Euler](https://projecteuler.net/) - mathy
+ * [CodeWars](https://www.codewars.com/) - large selection of languages
+ * [CodeChef](https://www.codechef.com/) - large contests
+ * [HackerRank](https://www.hackerrank.com/) - organized into neat categories of learning
+ * [HackerEarth](https://www.hackerearth.com/) - various contests
+ * [Robot Game](https://robotgame.net/) - a cool Python competition that lets you program a robot against other players
+
+## Appendix 2 - game jams
+
+A game jam is an in-person or online game-making competition that puts you on a time limit of anywhere from one day to weeks. This a great way to practice game development because it is super fun, especially with friends.
+ * [Ludum Dare](https://ldjam.com/) - most famous
+ * [Global Game Jam](https://globalgamejam.org/) - global?
+ * [Itch.io Jams](https://itch.io/jams) - a huge list of community-powered jams, smaller but way more common
+ * [Love Jam](https://itch.io/jam/love2d-jam) - a specific game jam for Love2D
+ * Local jams - there may be some in your area, so do some research!
+
+## Appendix 3 - publishing your game
+
+Since Steam is shutting down Greenlight, you're really only left with publishing to the plethora of indie game sites that exist. My two favorites are [itch.io](https://itch.io/) and [GameJolt](https://gamejolt.com/). Aside from that, it always helps to do some marketing on forums like [GameDev.net](https://www.gamedev.net/), [r/GameDev](https://www.reddit.com/r/gamedev/), and any specific one that your current engine/platform has.
 
 ---
 

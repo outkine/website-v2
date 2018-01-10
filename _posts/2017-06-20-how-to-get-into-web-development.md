@@ -2,8 +2,6 @@
 title: how to get into web development
 ---
 
-*WARNING: this guide assumes that you are not running Windows, as it is generally very painful to use in any development environment. If you are currently using Windows, I'd recommend dual-booting it with [Linux Mint](https://linuxmint.com/). [Here](https://www.lifewire.com/dual-boot-windows-8-1-linux-mint-2202090) is a tutorial on how to do that.*
-
 If you're like me, you've probably procrastinated learning anything web-related because of how unordered and even 'artsy' it all seems - HTML isn't even a programming language! Why would a coder waste their time on it?
 
 But whether we like it or not, the web is definitely the future. All of us use it on a daily basis and so it has transformed into a [huge industry](https://coggle.it/diagram/Vz9LvW8byvN0I38x/t/web-development). We're going to have to learn it at some point, and at the speed at which things are unrolling at the moment, I think the sooner the better.
